@@ -1,0 +1,21 @@
+extends Thread
+implements Runnable
+
+public void run()------->overriding Thread class method 
+
+test t=new test();      
+Thread t1=new Thread(t); ---->if using runnable interface 
+
+Thread class methods---->
+
+t.setName(String name)
+t.setDaemon(boolean)
+t.setPriority()
+t.getName()
+t.getId()
+t.isAlive()---->boolean
+t.isInterrupted()
+t.isDaemon()
+
+
+
