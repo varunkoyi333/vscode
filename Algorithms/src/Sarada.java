@@ -1,15 +1,23 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 55b6fee (Practiced insertion sort)
 public class Sarada
 {
 	public static void main(String[] args) {
 		int arr[]={5,3,4,1,2};
+<<<<<<< HEAD
 		Cyclic(arr);
+=======
+		selection(arr);
+>>>>>>> 55b6fee (Practiced insertion sort)
 		for(int x: arr)
 		{
 		    System.out.print(x+" ");
 		}
 	}
 	
+<<<<<<< HEAD
 	// public static void selection(int arr[]){
 	//     for(int i=0;i<arr.length;i++){
 	//         int last=arr.length-i-1;
@@ -42,6 +50,22 @@ public class Sarada
 			}
 			else i++;
 		}
+=======
+	public static void selection(int arr[]){
+	    for(int i=0;i<arr.length;i++){
+	        int last=arr.length-i-1;
+	        int max=getMaxIndex(arr,0,last);
+	        swap(arr,max,last);
+	    }
+	}
+	
+	public static int getMaxIndex(int arr[], int start, int end){
+	    int max=0;
+	    for(int i=start;i<=end;i++){
+	        if(arr[i]>arr[max]) max=i;
+	    }
+	    return max;
+>>>>>>> 55b6fee (Practiced insertion sort)
 	}
 	
 	public static void swap(int arr[],int first,int second){
@@ -49,6 +73,7 @@ public class Sarada
 	    arr[first]=arr[second];
 	    arr[second]=temp;
 	}
+<<<<<<< HEAD
 }
 =======
 public class Sarada {
@@ -116,4 +141,4 @@ public class Sarada {
         System.out.println(search(arr,5));
     }
 }
->>>>>>> 0f39496 (OOPS covered..!)
+
