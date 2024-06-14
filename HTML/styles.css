@@ -13,3 +13,9 @@
 .image_style{
     width: 200px;
 }
+
+.table_style{
+    border: 1cap;
+    padding: 1.5%;
+    margin: 1%;
+}
