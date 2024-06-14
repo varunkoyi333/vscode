@@ -4,3 +4,12 @@
     display:inline-block;
 }
 
+.Header_Style{
+    text-align: center;
+    color: black;
+    font-size:x-large;
+}
+
+.image_style{
+    width: 200px;
+}
