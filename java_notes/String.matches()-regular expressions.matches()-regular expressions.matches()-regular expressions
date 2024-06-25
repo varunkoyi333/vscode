@@ -1,0 +1,24 @@
+String.matches()-regular expressions
+
+single set -[]
+.  single character
+[abc] exactly given letters
+[abc][vz]
+[^abc]
+[a-z1-9]
+a|b
+ab exact
+/s space
+/S no space 
+/w either number or character
+/W neither number or character
+/d number
+/D not number
+
+quantizers
+
+[abc]*  either a or b or c 0 or any number of times
+[abc]+  1 or more
+[abc]?  either 0 or 1
+[abc]{n}  string of length n
+[abc]{i,j} range of characters

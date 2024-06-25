@@ -1,0 +1,5 @@
+HTML shortcuts 
+
+commenting----- ctrl+k ctrl+c
+duplicate command on the next line------- ctrl+alt+down
+

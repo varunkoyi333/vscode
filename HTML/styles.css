@@ -1,0 +1,21 @@
+.Div_Style{
+    padding: 5px;
+    margin: 5px;
+    display:inline-block;
+}
+
+.Header_Style{
+    text-align: center;
+    color: black;
+    font-size:x-large;
+}
+
+.image_style{
+    width: 200px;
+}
+
+.table_style{
+    border: 1cap;
+    padding: 1.5%;
+    margin: 1%;
+}
