@@ -1,0 +1,47 @@
+GIT Commands
+
+git config --global user.email "e-mail"
+git config --global user.name "e-mail"
+
+git add . --->stages all the changes which were untracked
+git rm --cached <filename>
+git restore -staged <filename>
+
+git commit -m "commit message"
+git commit -am "Commit message" -------> commit along with staging but only works for old commits
+
+git stash ----> move all the changes which were staged to back-stage
+git stash pop ---->brings all the back staged changes to the stage
+git stash clear --->deletes all the back staged changes 
+ 
+git log
+git log --oneline  
+
+git remote add origin/upstream "repository link"
+origin ---->refers to personal git repository hosted in our GitHub account
+upstream ---->refers to someone's git repository which we have forked, i.e, 
+kunal-Kushwaha/CommClassroomOP ---> DeepakUmmidi28/CommClassroomOP
+
+git remote -v --->fetches all the origin as well as upstream URLs
+git remote set-url vscode Desktop/vscode/.git/
+git remote remove vscode
+
+git push -u origin
+git push origin master
+
+git fetch --all --prune
+
+git reset --hard upstream/main
+
+git pull upstream main
+
+git branch name
+git checkout Deepak ---->changes the head to Deepak branch
+git branch -a ------>fetches all the branches including remote and local
+
+git clone https://github.com/DeepakUmmidi28/vscode.git --->creates a specified git repository in the local machine
+
+git reset --hard $(git commit-tree -m "Initial commit" 4b825dc642cb6eb9a060e54bf8d69288fbee4904) ----> resets a particular commit to specified state taking the tree object as a parameter.
+git cat-file -p c24b6db4955383b5d7bac6b86894fef82974aa73 ----> fetches the tree object of a particular commit using the commit hash.
+
+I to enter editable mode, ctrl+c, :qa!
