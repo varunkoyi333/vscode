@@ -24,7 +24,7 @@ kunal-Kushwaha/CommClassroomOP ---> DeepakUmmidi28/CommClassroomOP
 
 git remote -v --->fetches all the origin as well as upstream URLs
 git remote set-url vscode Desktop/vscode/.git/
-git remote remove vscode
+git remote remove upstream
 
 git push -u origin
 git push origin master
@@ -44,4 +44,10 @@ git clone https://github.com/DeepakUmmidi28/vscode.git --->creates a specified g
 git reset --hard $(git commit-tree -m "Initial commit" 4b825dc642cb6eb9a060e54bf8d69288fbee4904) ----> resets a particular commit to specified state taking the tree object as a parameter.
 git cat-file -p c24b6db4955383b5d7bac6b86894fef82974aa73 ----> fetches the tree object of a particular commit using the commit hash.
 
-I to enter editable mode, ctrl+c, :qa!
+I to enter editable mode, ctrl+c, :wq to write out and exit
+
+merge via command line
+Clone the repository or update your local repository with the latest changes----> git pull origin main
+Switch to the base branch of the pull request----> git checkout main
+Merge the head branch into the base branch----> git merge Deepak
+Push the changes---->git push -u origin main
