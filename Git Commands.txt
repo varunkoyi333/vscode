@@ -1,5 +1,4 @@
 
-koyi varun teja
 GIT Commands
 
 git config --global user.email "e-mail"
